@@ -14,9 +14,9 @@
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
         
-        var buttonInnerHtml = this.innerHtml;
+        var buttonInnerHTML = this.innerHTML;
 
-        switch (buttonInnerHtml) {
+        switch (buttonInnerHTML) {
             case "w":
                 var tom1 = new Audio("sounds/tom-1.mp3");
                 tom1.play();
@@ -34,6 +34,30 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++){
 
             case "d":
                 var tom4 = new Audio("sounds/tom-4.mp3");
-                tom3.play();
+                tom4.play();
                 break;
+
+            case "j":
+                var snare = new Audio("sounds/snare.mp3");
+                snare.play();
+                break;  
+
+            case "k":
+                var crash = new Audio("sounds/crash.mp3");
+                crash.play();
+                break;
+
+            case "l":
+                var kick = new Audio("sounds/kick-bass.mp3");
+                crash.play();
+                break;
+
+
+            default: console.log(buttonInnerHTML);
+                
+        }
+    });
+}
+
+
                 
