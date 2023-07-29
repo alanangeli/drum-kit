@@ -1,22 +1,30 @@
 body {
   text-align: center;
-  background-image: url("./images/bg2.jpg");
+  background-image: url("./images/bg1.jpg");
   background-position: center;
   background-size: cover;
+  
 }
 
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
+  text-shadow: 5px 0 #DA0463;
+  text-align: right;
+  
+  
+  
 }
 
-h3 {
+p {
   font-size: 2rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
+  text-shadow: 5px 0 #DA0463;
+  text-align: left;
+  margin-right: 3rem;
+  
 }
 
 footer {
@@ -89,13 +97,28 @@ footer {
   background-color: white;
 }
 
-.w:hover, .a:hover, .s:hover, .d:hover, .j:hover, .k:hover, .l:hover{
+.w:hover, .a:hover{
   color: aqua;
   background-position: 0cqmax;
   
 }
 
+.s:hover, .d:hover, .j:hover {
+  color:rgb(29, 247, 29);
+  background-position: 0cqmax;
+}
+
+.k:hover, .l:hover {
+  color:rgb(255, 94, 0);
+  background-position: 0cqmax;
+}
+
 .w, .a, .s, .d, .j, .k, .l{
   cursor: pointer;
+}
+
+footer{
+  background-color: black;
+  opacity: 0.5;
 }
 
