@@ -71,6 +71,7 @@ function makeSound(key){
             var kick = new Audio("sounds/kick-bass.mp3");
             crash.play();
             break;
+            
 
 
         default: console.log(buttonInnerHTML);
